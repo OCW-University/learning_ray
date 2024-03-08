@@ -7,6 +7,7 @@ Abstractions
 
 - driver: the node which runs the ray code.
 - worker: the computing nodes in the cluster.
+- object store: a distributed memory system shared by all the nodes in the cluster.
 - task: a function gets executed on workers instead of the driver.
 - actor: a class hosted on workers
 
